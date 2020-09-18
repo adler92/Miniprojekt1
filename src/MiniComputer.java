@@ -27,16 +27,14 @@ public class MiniComputer {
             // Bil.dyt();
 
             if ( x == 9) { Fishmaster2020.main(null);}
-
-        }
             //Jokes
             if (x == 2) {
                 Jokes.tellMeAJoke();
             }
+        }
 
-            System.out.println("Farvel!");
+            System.out.println("Farvel!   ");
 
         }
-    }
-
 }
+
