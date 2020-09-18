@@ -20,16 +20,23 @@ public class MiniComputer {
             Scanner input = new Scanner(System.in);
             int x = input.nextInt();
 
-            if ( x == 1) { Terning.kast(); }
+            if (x == 1) {
+                Terning.kast();
+            }
             // Dine if sætninger skal komme her
             // Bil.dyt();
 
             if ( x == 9) { Fishmaster2020.main(null);}
 
         }
+            //Jokes
+            if (x == 2) {
+                Jokes.tellMeAJoke();
+            }
 
-        System.out.println("Farvel!");
+            System.out.println("Farvel!");
 
+        }
     }
 
 }
