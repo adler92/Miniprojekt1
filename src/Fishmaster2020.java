@@ -73,10 +73,10 @@ public class Fishmaster2020 {
         double resultat = Math.random() * (6 - 1 + 1) + 1;
         int res2 = (int) resultat;
         if (res2 == 1) { System.out.println("You caught an old boot. Yey!"); }
-        else if (res2 == 2) { System.out.println("You caught an old a carwheel. Catching!"); }
-        else if (res2 == 3) { System.out.println("You caught an old a boyfriend. No returns."); }
-        else if (res2 == 4) { System.out.println("You caught an old a man-child. Living large."); }
-        else if (res2 == 5) { System.out.println("You caught an old a coupon for a re-fish."); fishNow();}
+        else if (res2 == 2) { System.out.println("You caught a carwheel. Catching!"); }
+        else if (res2 == 3) { System.out.println("You caught a boyfriend. No returns."); }
+        else if (res2 == 4) { System.out.println("You caught a man-child. Living large."); }
+        else if (res2 == 5) { System.out.println("You caught a coupon for a re-fish."); fishNow();}
 
         else if (res2 == 6) { System.out.println("You caught a fish");
         double kg = Math.random() * (6 - 1 + 1) + 1;
