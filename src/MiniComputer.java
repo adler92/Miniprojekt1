@@ -1,4 +1,3 @@
-import java.util.Random;
 import java.util.Scanner;
 import java.lang.String;
 
@@ -22,14 +21,19 @@ public class MiniComputer {
             Scanner input = new Scanner(System.in);
             int x = input.nextInt();
 
-            if ( x == 1) { Terning.kast(); }
+            if (x == 1) {
+                Terning.kast();
+            }
             // Dine if sætninger skal komme her
             // Bil.dyt();
 
+            //Jokes
+            if (x == 2) {
+                Jokes.tellMeAJoke();
+            }
+
+            System.out.println("Farvel!");
+
         }
-
-        System.out.println("Farvel!");
-
     }
-
 }
