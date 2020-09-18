@@ -1,4 +1,6 @@
+import java.util.Random;
 import java.util.Scanner;
+import java.lang.String;
 
 /**
  * Developed by András Ács (acsandras@gmail.com)
