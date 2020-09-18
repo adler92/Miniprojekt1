@@ -31,6 +31,9 @@ public class MiniComputer {
             if (x == 2) {
                 Jokes.tellMeAJoke();
             }
+            if (x == 3) {
+                Game.Middelearth();
+            }
         }
 
             System.out.println("Farvel!   ");

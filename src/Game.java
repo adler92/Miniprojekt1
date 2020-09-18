@@ -12,7 +12,7 @@ public class Game {
     int monsterHP = 8;
     int guldArmbånd;
 
-    public static void main(String[] args) {
+    public static void Middelearth() {
 
         Game Middelearth;
         Middelearth = new Game();
