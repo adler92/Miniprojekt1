@@ -22,6 +22,7 @@ public class MiniComputer {
             System.out.println("[4] Fishmaster2020");
             System.out.println("[5] Valuta Omregner");
             System.out.println("[6] Sten, Saks, Papir");
+            System.out.println("[7] Heads or Tails?");
 
             Scanner input = new Scanner(System.in);
             int x = input.nextInt();
@@ -36,9 +37,7 @@ public class MiniComputer {
                 Jokes.tellMeAJoke();
             }
             // Middleearth Game Delal
-            if (x == 3) {
-                Game.Middelearth();
-            }
+            if (x == 3) { Game.Middelearth(); }
             //Fishmaster2020 Jens
             if ( x == 4) { Fishmaster2020.main(null);}
 
@@ -46,9 +45,8 @@ public class MiniComputer {
             if (x == 5) {
                 // LUKASCLASS();
             }
-            if (x==6) {
-                Sten_Saks_Papir.StenSaksPapir();
-            }
+            if (x==6) { Sten_Saks_Papir.StenSaksPapir(); }
+            if (x==7) { HeadsorTails.HeadsorTails(); }
         }
 
             System.out.println("Farvel!   ");
