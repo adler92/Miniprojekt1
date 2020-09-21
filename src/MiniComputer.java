@@ -15,8 +15,12 @@ public class MiniComputer {
 
         for (int i = 0; i < 3; i++) {
 
-            System.out.print("Hvilket miniprogram vil du køre [1..5]? 1:Terning  2:Jokes  3:Adventure Game  " +
-                    "4:Fishmaster2020  5:Valutta omregner");
+            System.out.println("Hvilket miniprogram vil du køre?");
+            System.out.println("[1] Terning");
+            System.out.println("[2] Jokes");
+            System.out.println("[3] Adventure Game");
+            System.out.println("[4] Fishmaster2020");
+            System.out.println("[5] Valuta Omregner");
 
             Scanner input = new Scanner(System.in);
             int x = input.nextInt();
@@ -37,7 +41,7 @@ public class MiniComputer {
             //Fishmaster2020 Jens
             if ( x == 4) { Fishmaster2020.main(null);}
 
-            //Valutta lukas
+            //Valuta lukas
             if (x == 5) {
                 // LUKASCLASS();
             }
