@@ -21,7 +21,7 @@ public class MiniComputer {
             System.out.println("[2] Jokes");
             System.out.println("[3] Adventure Game");
             System.out.println("[4] Fishmaster2020");
-            System.out.println("[5] Valuta Omregner");
+            System.out.println("[5] Valutta Omregner");
             System.out.println("[6] Sten, Saks, Papir");
             System.out.println("[7] Heads or Tails?");
             System.out.println("[8] Lottery");
@@ -45,7 +45,7 @@ public class MiniComputer {
 
             //Valuta lukas
             if (x == 5) {
-                // LUKASCLASS();
+                Konverter.Rate();
             }
             if (x==6) { Sten_Saks_Papir.StenSaksPapir(); }
             if (x==7) { HeadsorTails.HeadsorTails(); }
