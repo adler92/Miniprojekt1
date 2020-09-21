@@ -26,6 +26,9 @@ public class MiniComputer {
             // Dine if sætninger skal komme her
             // Bil.dyt();
 
+            if ( x == 8) { Konverter.Rate(); }
+
+
         }
 
         System.out.println("Farvel!");
