@@ -9,3 +9,5 @@ Minicomputeren har 5 programmer. Man kører et program ved at trykke det tilsvar
 3: Adventure Game - Gå på eventyr (Delal)
 4: Fishmaster2020 - Prøv at fange en fisk (Jens)
 5: Valutta Omregner? - Omregn valutta (Lukas)
+6: Sten, saks, papir! - Jep, try it (Delal)
+7: Heads or tails - Flip a coin (Delal)
