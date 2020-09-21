@@ -21,6 +21,7 @@ public class MiniComputer {
             System.out.println("[3] Adventure Game");
             System.out.println("[4] Fishmaster2020");
             System.out.println("[5] Valuta Omregner");
+            System.out.println("[6] Sten, Saks, Papir");
 
             Scanner input = new Scanner(System.in);
             int x = input.nextInt();
@@ -44,6 +45,9 @@ public class MiniComputer {
             //Valuta lukas
             if (x == 5) {
                 // LUKASCLASS();
+            }
+            if (x==6) {
+                Sten_Saks_Papir.StenSaksPapir();
             }
         }
 
