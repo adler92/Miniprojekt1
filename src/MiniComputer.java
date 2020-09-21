@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.lang.String;
 
 /**
  * Developed by András Ács (acsandras@gmail.com)
@@ -16,7 +15,7 @@ public class MiniComputer {
 
         for (int i = 0; i < 3; i++) {
 
-            System.out.print("Hvilket miniprogram vil du køre [1..9]? ");
+            System.out.print("Hvilket miniprogram vil du køre [1..9]? Press 9 for Fishmaster2020: ");
 
             Scanner input = new Scanner(System.in);
             int x = input.nextInt();
@@ -27,13 +26,18 @@ public class MiniComputer {
             // Dine if sætninger skal komme her
             // Bil.dyt();
 
+            if ( x == 9) { Fishmaster2020.main(null);}
             //Jokes
             if (x == 2) {
                 Jokes.tellMeAJoke();
             }
+            if (x == 3) {
+                Game.Middelearth();
+            }
+        }
 
-            System.out.println("Farvel!");
+            System.out.println("Farvel!   ");
 
         }
-    }
 }
+
