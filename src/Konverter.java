@@ -33,6 +33,7 @@ public class Konverter {
                 while (true) {
                     System.out.println("Hvad er beløbet?");
                     double y = scanner.nextDouble();
+                    scanner.nextLine();
                     System.out.println(y * 6.6296);
                     wait(2000);
                     System.out.println("Vil du indtaste et nyt beløb?");
@@ -41,6 +42,7 @@ public class Konverter {
                     }
 
                     if (y1.equalsIgnoreCase("NEJ")) {
+                        System.out.println("Ønsker du at se en anden valuta?");
                         break;
                     }
 
