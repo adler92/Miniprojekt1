@@ -75,6 +75,7 @@ public class Game {
         else if (valgmulighed==2) {
             if (playerHP<1) {død();}
             else playerHP = playerHP - 1;{
+                System.out.println("Vagten angrib dig");
                 System.out.println("Din HP er nu på " + playerHP);
                 byPort();
             }
