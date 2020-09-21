@@ -15,7 +15,8 @@ public class MiniComputer {
 
         for (int i = 0; i < 3; i++) {
 
-            System.out.print("Hvilket miniprogram vil du køre [1..9]? Press 9 for Fishmaster2020: ");
+            System.out.print("Hvilket miniprogram vil du køre [1..5]? 1:Terning  2:Jokes  3:Adventure Game  " +
+                    "4:Fishmaster2020  5:Valutta omregner");
 
             Scanner input = new Scanner(System.in);
             int x = input.nextInt();
@@ -24,15 +25,21 @@ public class MiniComputer {
                 Terning.kast();
             }
             // Dine if sætninger skal komme her
-            // Bil.dyt();
 
-            if ( x == 9) { Fishmaster2020.main(null);}
-            //Jokes
+            //Jokes Asta
             if (x == 2) {
                 Jokes.tellMeAJoke();
             }
+            // Middleearth Game Delal
             if (x == 3) {
                 Game.Middelearth();
+            }
+            //Fishmaster2020 Jens
+            if ( x == 4) { Fishmaster2020.main(null);}
+
+            //Valutta lukas
+            if (x == 5) {
+                // LUKASCLASS();
             }
         }
 
