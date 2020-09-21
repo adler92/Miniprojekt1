@@ -15,6 +15,7 @@ public class MiniComputer {
 
         for (int i = 0; i < 3; i++) {
 
+            System.out.println(" ");
             System.out.println("Hvilket miniprogram vil du køre?");
             System.out.println("[1] Terning");
             System.out.println("[2] Jokes");
